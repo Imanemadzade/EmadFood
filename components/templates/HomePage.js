@@ -3,6 +3,7 @@ import Banner from "../modules/Banner";
 import Attributes from "../modules/Attributes";
 import Definition from "../modules/Definition";
 import Companeis from "../modules/Companeis";
+import Instruction from "../modules/Instruction";
 
 function HomePage() {
   return (
@@ -11,6 +12,7 @@ function HomePage() {
       <Attributes />
       <Definition />
       <Companeis />
+      <Instruction />
     </div>
   );
 }
