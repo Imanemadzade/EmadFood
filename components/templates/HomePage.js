@@ -4,6 +4,8 @@ import Attributes from "../modules/Attributes";
 import Definition from "../modules/Definition";
 import Companeis from "../modules/Companeis";
 import Instruction from "../modules/Instruction";
+import Guide from "../modules/Guide";
+import Restrictions from "../modules/Restrictions";
 
 function HomePage() {
   return (
@@ -13,6 +15,8 @@ function HomePage() {
       <Definition />
       <Companeis />
       <Instruction />
+      <Guide />
+      <Restrictions />
     </div>
   );
 }
