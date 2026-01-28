@@ -2,6 +2,7 @@ import styles from "./HomePage.module.css";
 import Banner from "../modules/Banner";
 import Attributes from "../modules/Attributes";
 import Definition from "../modules/Definition";
+import Companeis from "../modules/Companeis";
 
 function HomePage() {
   return (
@@ -9,6 +10,7 @@ function HomePage() {
       <Banner />
       <Attributes />
       <Definition />
+      <Companeis />
     </div>
   );
 }
